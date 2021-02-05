@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <OutputType>Library</OutputType>
+<CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+<StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Blake2Core" Version="1.0.0" />
+  </ItemGroup>
+
+</Project>
